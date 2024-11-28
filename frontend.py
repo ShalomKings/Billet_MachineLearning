@@ -10,17 +10,10 @@ Created on Sun Nov 24 11:59:03 2024
 
 
 
-from fastapi import FastAPI, File, UploadFile
 import streamlit as st
 import pandas as pd
-import pickle
-from pydantic import BaseModel
-from fastapi.middleware.cors import CORSMiddleware
-import uvicorn
 import joblib
 import io
-from sklearn.preprocessing import StandardScaler
-import numpy as np
 import matplotlib.pyplot as plt
 
 #=======================================mise en forme================================================#
